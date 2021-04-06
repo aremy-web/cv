@@ -64,6 +64,12 @@ body {
   outline: 0 !important;
 }
 
+iframe.video-new {
+  height: 250px;
+  width: 100%;
+  border: none;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
