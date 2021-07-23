@@ -59,9 +59,9 @@
 // type writting effect with colors
 
 const carouselText = [
-    {text: "ON GOING...", color: "red"},
-    {text: "ON GOING...", color: "orange"},
-    {text: "ON GOING...", color: "yellow"}
+    {text: "UI Design", color: "red"},
+    {text: "UI Design", color: "orange"},
+    {text: "UI Design", color: "yellow"}
   ]
   
   $( document ).ready(async function() {
