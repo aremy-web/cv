@@ -267,6 +267,7 @@ img {
   border-style: none;
 }
 
+
 .zoom {
   transition: transform .2s; /* Animation */
   margin: 0 auto;
