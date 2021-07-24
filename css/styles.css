@@ -86,6 +86,16 @@ p {
   margin-bottom: 1rem;
 }
 
+/* show and hide content starts */
+#ecommerce-show, #vem-show, #bhm-show, #ebm-show {
+  display: none;
+}
+
+#ecommerce-show:target, #vem-show:target, #bhm-show:target, #ebm-show:target {
+  display: block;
+}
+/* show and hide content stops */
+
 .vertical-center {
   margin: 0;
   position: absolute;
