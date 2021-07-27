@@ -86,6 +86,20 @@ p {
   margin-bottom: 1rem;
 }
 
+/* hidden div mobil version starts */
+.hidden-for-mobil {
+  display: none;
+
+}
+
+@media screen and (min-width: 768px) {
+  .hidden-for-mobil {
+    display:block;
+}
+
+}
+/* hidden div mobil version stops */
+
 /* show and hide content starts */
 #ecommerce-show, #vem-show, #bhm-show, #ebm-show {
   display: none;
@@ -95,6 +109,8 @@ p {
   display: block;
 }
 /* show and hide content stops */
+
+
 
 .vertical-center {
   margin: 0;
