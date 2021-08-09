@@ -91,6 +91,15 @@ p {
   display: none;
 
 }
+.bg-img {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.9) 80%, #000000 100%), url("../assets/img/bg_design.jpg");
+  height: 100%;
+  width: 80%;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
 
 @media screen and (min-width: 768px) {
   .hidden-for-mobil {
@@ -10393,7 +10402,7 @@ body {
   height: 50%;
   min-height: 25rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.9) 75%, #000000 100%), url("../assets/img/lowfi.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.9) 75%, #000000 100%), url("../assets/img/color.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
