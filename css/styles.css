@@ -107,11 +107,11 @@ p {
 }
 
 /* show and hide content starts */
-#ecommerce-show, #vem-show, #bhm-show, #ebm-show {
+#ecommerce-show, #vem-show, #bhm-show, #ebm-show, #mobile-show, #ecom-show, #bet-show, #ui-show {
   display: none;
 }
 
-#ecommerce-show:target, #vem-show:target, #bhm-show:target, #ebm-show:target {
+#ecommerce-show:target, #vem-show:target, #bhm-show:target, #ebm-show:target, #mobile-show:target, #ecom-show:target, #bet-show:target, #ui-show:target {
   display: block;
 }
 /* show and hide content stops */
@@ -10367,7 +10367,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/header_cv.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/head_hp.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
