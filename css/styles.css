@@ -137,10 +137,12 @@ p {
 /* show and hide content starts */
 #ecommerce-show, #vem-show, #bhm-show, #ebm-show, #mobile-show, #ecom-show, #bet-show, #ui-show {
   display: none;
+  transition: 0.40s;
 }
 
 #ecommerce-show:target, #vem-show:target, #bhm-show:target, #ebm-show:target, #mobile-show:target, #ecom-show:target, #bet-show:target, #ui-show:target {
   display: block;
+  transition: 0.40s;
 }
 /* show and hide content stops */
 
@@ -10558,3 +10560,63 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+
+/* index img with overlay starts */
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 88, 94, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.30s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+/* all overlay child transform, push text 20px, sync with hover time */
+.image__overlay > * {
+  transition: translateY(20px);
+  transition: 0.30s;
+}
+
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+/* overlay child up when hover */
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+/* index img with overlay  stops */
