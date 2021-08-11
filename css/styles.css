@@ -65,7 +65,7 @@ body {
 }
 
 iframe.video-new {
-  height: 395px;
+  height: 495px;
   width: 100%;
   border: none;
 }
@@ -116,6 +116,13 @@ p {
   background-size: cover; 
 }
 
+.bg-color-linear {
+  background: linear-gradient(#000000, #fff);
+}
+
+.bg-color-linear-reverse {
+  background: linear-gradient(#fff, #000000);
+}
 
 
 
@@ -126,6 +133,7 @@ p {
 }
 
 }
+
 /* hidden div mobil version stops */
 
 /* fade in css */
@@ -135,18 +143,76 @@ p {
 }
 
 /* show and hide content starts */
-#ecommerce-show, #vem-show, #bhm-show, #ebm-show, #mobile-show, #ecom-show, #bet-show, #ui-show {
+#ecommerce-show, #vem-show, #bhm-show, #ebm-show {
   display: none;
   transition: 0.40s;
 }
 
-#ecommerce-show:target, #vem-show:target, #bhm-show:target, #ebm-show:target, #mobile-show:target, #ecom-show:target, #bet-show:target, #ui-show:target {
+#ecommerce-show:target, #vem-show:target, #bhm-show:target, #ebm-show:target {
   display: block;
   transition: 0.40s;
 }
 /* show and hide content stops */
 
 
+
+
+/* swiper cube starts  */
+.swiper-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .swiper-container {
+    max-width: 100%;
+    height: inherit;
+  }
+}
+
+/* cube stops  */  
+
+/* swiper carousel starts */
+.swiper-container-car {
+  width: 90%;
+  height: 90%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .swiper-container-car {
+    max-width: 100%;
+    height: inherit;
+  }
+}
+
+.swiper-container-moodboard {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .swiper-container-moodboard {
+    max-width: 100%;
+    height: inherit;
+  }
+}
+
+/* swiper carousel stops  */
 
 .vertical-center {
   margin: 0;
@@ -562,6 +628,14 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.margin-figma {
+  margin-top: 150px;
+}
+
+.margin-top-md {
+  margin-top: 90px;
 }
 
 small,
