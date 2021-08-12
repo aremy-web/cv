@@ -190,14 +190,18 @@ p {
     max-width: 100%;
     height: inherit;
   }
+  .swiper-slide img {
+    max-width: 100%;
+    height: inherit;
+  }
 }
 
 /* cube stops  */  
 
 /* swiper carousel starts */
 .swiper-container-car {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 
 
