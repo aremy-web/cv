@@ -4680,6 +4680,16 @@ input[type=button].btn-block {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+.card-ios {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: 353535;
+  color: #fff;
+  background-clip: border-box;
+}
 
 .card {
   position: relative;
@@ -4692,6 +4702,7 @@ input[type=button].btn-block {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -6555,6 +6566,11 @@ button.bg-light:focus {
 
 .bg-black {
   background-color: #000000 !important;
+}
+
+  /* 353535 */
+.bg-ios {
+  background: linear-gradient(to top, #353535 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%);
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10574,6 +10590,18 @@ body {
   background-size: cover;
 }
 
+.mastheadios {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  min-height: 25rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.9) 75%, #000000 100%), url("../assets/img/apple.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
