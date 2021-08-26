@@ -47,13 +47,19 @@
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
-                <p class="mobile"><a href="soon.html">Mobile version &#8594;</a></p>
+                <!-- <p class="mobile"><a href="soon.html">Mobile version &#8594;</a></p>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">UX | UI & Front-end designer</h2>
-                <a class="btn btn-primary js-scroll-trigger" href="#cv">View cv</a>
+                <a class="btn btn-primary js-scroll-trigger" href="#cv">View cv</a> -->
+                <div id="anim"></div>
             </div>
         </div>
     </header>
 
+    <div class="container margin-figma">
+        <div id="anim"></div>
+    </div>
+
+ 
     <!-- CV-->
     <section class="contact-section bg-black pb-4" id="cv">
 
@@ -203,7 +209,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-
+    <script src="js/lottie.js"></script>
+    <!-- header animation -->
+    <script>
+    var animation = bodymovin.loadAnimation({
+        container: document.getElementById('anim'),
+        rederer: 'svg',
+        loop: true,
+        autoplay: true,
+        path:'js/data.json'
+    })
+    </script>
+   <!-- header animation -->
  
 </body>
 
