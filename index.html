@@ -125,14 +125,23 @@
             </div>
         </div>
     </section>
-
+    <section class="projects-section bg-light" id="portfolio">
+        <div class="container">
+            <a href="graphic.html">
+                <div id="ui" class="zoom" style="height:80%;"></div>
+            </a>
+        </div>
+    </section>
     <!-- Start-->
     <section class="projects-section bg-light">
-        <div class="container">
+        <div class="container zoom">
+            
             <!-- Featured Project Row-->
             <div class="row mx-1 align-items-center no-gutters mb-4 mb-lg-5">
                 <div class="col-xl-8 col-lg-7">
+                <a href="webdev.html">
                     <img class="img-fluid mb-3 mb-lg-0" src="assets/img/arrows.png" alt="Arrow picture" />
+                </a>
                 </div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left hideme">
@@ -141,54 +150,19 @@
                     </div>
                 </div>
             </div>
+        
         </div>
     </section>
-
-    <!-- Current project-->
-
 
     <section class="projects-section bg-light" id="portfolio">
-        <div class="container">
-            <!-- Featured Project Row-->
-        
-        <div class="row mx-1">
-            <div class="col-lg-6 my-4">
-                <a href="graphic.html">
-                    <div class="image">
-                  
-                        <img class="image__img" src="assets/img/hp/graphic_design2.jpg" alt="ui img">
-                        <div class="image__overlay image__overlay--blur ">
-                            <div class="image__title">UI & GRAPHIC</div>
-                            <p class="image__description">
-                                See project
-                            </p>
-                        </div>
-                    </div>
-                </a>
-                <p>
-                    <a href="graphic.html">See projects</a>
-                </p>
-            </div>
-
-                <div class="col-lg-6 my-4">
-                    <a href="webdev.html">
-                        <div class="image">
-                            <img class="image__img" src="assets/img/hp/webdev.jpg" alt="Webdev img">
-                            <div class="image__overlay image__overlay--blur ">
-                                <div class="image__title">WEB DEVELOPMENT</div>
-                                <p class="image__description">
-                                    See project
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <p>
-                        <a href="webdev.html">See projects</a>
-                    </p> 
-                </div>
-
+        <div class="container ">
+            <a href="webdev.html"> 
+                <div id="webdev" class="zoom"  style="height:80%;"></div>
+            </a>
         </div>
     </section>
+    
+
 
     <!-- Footer-->
 
@@ -218,7 +192,24 @@
         path:'js/data.json'
     })
     </script>
-   <!-- header animation -->
+    <script>
+        var ui = bodymovin.loadAnimation({
+            container: document.getElementById('ui'),
+            rederer: 'svg',
+            loop: true,
+            autoplay: true,
+            path:'js/ui.json'
+        })
+    </script>
+    <script>
+        var webdev = bodymovin.loadAnimation({
+            container: document.getElementById('webdev'),
+            rederer: 'svg',
+            loop: true,
+            autoplay: true,
+            path:'js/webdev.json'
+        })
+    </script>
  
 </body>
 
