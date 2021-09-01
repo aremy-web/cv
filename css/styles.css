@@ -4317,7 +4317,7 @@ input[type=button].btn-block {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -4399,7 +4399,7 @@ input[type=button].btn-block {
 }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container,
+.navbar-expand-sm > .container,
 .navbar-expand-sm > .container-fluid,
 .navbar-expand-sm > .container-sm,
 .navbar-expand-sm > .container-md,
@@ -10650,6 +10650,12 @@ body {
 
 @media (min-width: 1025px) {
   .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 812px) {
+  .mobile-disappear {
     display: none;
   }
 }
