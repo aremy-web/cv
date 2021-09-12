@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -311,6 +312,10 @@ p {
   transform: translate3d(0,0,0);
 }
 /* hover img grid stop */
+
+/*Slideshow figma starts*/
+
+/*Slideshow figma stops*/
 
 abbr[title],
 abbr[data-original-title] {
@@ -6371,7 +6376,7 @@ a.close.disabled {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #2F6580;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -10661,7 +10666,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
