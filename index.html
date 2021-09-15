@@ -12,8 +12,7 @@
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 
@@ -21,37 +20,33 @@
 
 <body id="page-top">
     <!-- Navigation-->
-
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Angeline Remy</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mobile-disappear" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">Angeline Remy</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cv">Professional profile</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="webdev.html">Web development</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="figma.html">UX & UI</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ios.html">IOS showcase</a>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ios.html">IOS showcase</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+  
 
-    <!-- Masthead-->
-    
-    <div class="bg-light">
+    <!-- Animation-->
+  
+    <section class=" bg-light mx-auto text-center">
         <div class="container">
-            <div class="mx-auto text-center">
-                <div id="anim"></div>
-            </div>
-        </div>
-    </div>
+            <div id="anim"></div>  
+        </div>  
+    </section>
 
    <!-- <p class="mobile text-center"><a href="soon.html"><strong>Mobile version &#8594;</strong></a></p> -->
 
@@ -63,7 +58,7 @@
             
             <div class="row mt-3 text-center">
                 <div class="col-lg-3 my-auto mb-3">
-                    <h2 class="text-white mb-4">Professional profile</h2>
+                    <h2 class="text-white mb-4">Angeline Remy <br> Professional profile</h2>
                     <p><a href="https://www.linkedin.com/in/angeline-r-a654451a8/" target="blank_">&#x7c; LinkedIn profile
                             &#x7c;</a> <br>
                         <a href="assets/img/cv_angeline_remy_english.pdf" target="_blank" download="CV">&#x7c; Full resume in pdf
@@ -75,8 +70,8 @@
                     <div class="card py-4 h-100">
                         <div class="card-body">
                             <a href="figma.html"><h4 class="text-uppercase m-0 text-center">UI - UX & Graphic  &#8594;</h4></a>
-                            <hr class="my-4" />
-                            <div class="small text-black-50">
+                           
+                            <div class="small text-black-50 text-start">
                                 <ul>
                                     <li>Adobe Xd</li>
                                     <li>Figma</li>
@@ -92,8 +87,8 @@
                     <div class="card py-4 h-100">
                         <div class="card-body">
                             <a href="webdev.html"><h4 class="text-uppercase m-0 text-center">Web dev & SEO  &#8594;</h4></a>
-                            <hr class="my-4" />
-                            <div class="small text-black-50">
+                            
+                            <div class="small text-black-50 text-start">
                                 <ul>
                                     <li>Keyword research & integration</li>
                                     <li>Title/Image Tags & meta descriptions</li>
@@ -105,16 +100,16 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3  mb-3 ">
+                <div class="col-lg-3 mb-3 ">
                     <div class="card py-4 h-100">
                         <div class="card-body">
                             <a href="webdev.html"><h4 class="text-uppercase m-0 text-center">Front-end design  &#8594;</h4></a>
-                            <hr class="my-4" />
-                            <div class="small text-black-50">
+                          
+                            <div class="small text-black-50 text-start">
                                 <ul>
                                     <li>HTML</li>
                                     <li>CSS &#x7c; JS</li>
-                                    <li>Bootstrap 4</li>
+                                    <li>Bootstrap 5</li>
                                     <li>Django Framework</li>
                                 </ul>
                             </div>
@@ -124,22 +119,17 @@
             </div>
         </div>
     </section>
-    <section class="projects-section bg-light mobile-disappear" id="portfolio">
+
+ <!-- Dev and testing Project Row-->
+    <section class="projects-section bg-light mobile-disappear" id="portfolio"> 
         <div class="container">
-            <a href="figma.html">
-                <div id="ui" class="zoom" style="height:70%;"></div>
-            </a>
-        </div>
- 
-        <div class="container">
-            
-            <!-- Featured Project Row-->
-            <div class="row mx-1 align-items-center no-gutters mb-lg-5">
+            <div class="row mt-4 align-items-center no-gutters mb-lg-5">
                 <div class="col-xl-8 col-lg-7">
-                <a href="webdev.html">
-                    <img class="img-fluid mb-lg-0" src="assets/img/arrows.png" alt="Arrow picture" />
-                </a>
+                    <a href="webdev.html">
+                        <img class="img-fluid mb-lg-0" src="assets/img/arrows.png" alt="Arrow picture" />
+                    </a>
                 </div>
+                <!-- Dev and testing Row-->
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left hideme">
                         <a href="webdev.html"><h4><strong>DEVELOPMENT & TESTING</strong></h4></a>
@@ -147,27 +137,27 @@
                     </div>
                 </div>
             </div>
-        
         </div>
     </section>
 
-    <div class="container justify-content-center mt-6">
-        <div class="section">
-            
-                <p>
-                    <a href="mailto:angeline.remy@hotmail.fr">&#128386; angeline.remy@hotmail.fr</a>
-                </p>
-       
-        </div>
+    <section class="bg-pink-light" id="portfolio"> 
+          <!-- Figma container-->
+            <div class="container">
+                <a href="figma.html">
+                    <div id="ui" class="zoom" style="width:70%;"></div>
+                </a>
+            </div>   
+    </section>
+
+
+<!-- Footer-->
+<footer class="footer bg-black small text-center text-white-50">
+    <div class="container px-4 px-lg-5"> 
+        <a href="mailto:angeline.remy@hotmail.fr">Contact: angeline.remy@hotmail.fr</a>
     </div>
-    
+</footer>
+  
 
-
-    <!-- Footer-->
-
-
-
-    
 
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

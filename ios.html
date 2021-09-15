@@ -25,172 +25,189 @@
 
 
 </head>
-
-<body class="bg-light-blue" id="top">
-<!-- Navigation-->
+<body class="bg-light-blue">
+    <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="https://aremy-web.github.io/cv/#page-top">Angeline Remy</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html#page-top">Angeline Remy</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Professional profile</a></li>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#cv">Professional profile</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="webdev.html">Web development</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="figma.html">UX & UI</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ios.html">IOS showcase</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="ios.html">IOS showcase</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container margin-figma">
-        <div class="row mt-4 mx-1 ml-2 mb-3"> 
-            <h2><strong>IOS SHOWCASE</strong></h2>
-            <hr style="width:100%", size="3", color=white>  
-        </div>
-    </div>
-    <div class="container border-left border-right">
+
+
+<!-- Intro-->
+    <section class="projects-section bg-light" id="projects">
+        <div class="container px-4 px-lg-5">
+            <!-- Featured Project Row-->
+            <div class="row gx-0 mb-5 mb-lg-5 align-items-center">
+                <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid mb-3 mb-lg-0 rounded" src="assets/img/ios/moodboard.png" style="width:100%;" alt="UI img" />
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text test-start">
+                        <h4>IOS Showcase</h4>
+
+                        <p class="text-black-50 my-3 text-start">
+                            <strong>Context:</strong><br>
+                            Because general knowledge should be fun!<br>
+                            This application aims to develop basic culture through question and answer games.<br>
+                            <strong>Description:</strong><br>
+                            This app is composed of four game´s categories:
+                        </p>
+                        <ul>
+                            <li>Sciences</li>
+                            <li>Geography</li>
+                            <li>Random</li>
+                            <li>Fun facts</li>
+                        </ul>
+                        <p class="text-black-50 my-3 text-start">
+                            Each category consists of a series of questions with two answer choices.<br> 
+                            Each answer is tracked from the moment users create their profiles.  Users can see their progress by category or by week/month, and even compare their results with other users.<br> <br> 
+                            All mockups are created using <strong>Apple Human Interface Guidelines.</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        <!--Lofi intro row-->
+        <div class="row gx-0 mb-5 margin-figma mb-lg-0 justify-content-center">
+            <div class="col-lg-6 my-auto">
+                <img class="img-fluid" src="assets/img/ios/ios_showcase_mobile_1.png" style="width:100%;" alt="Lo Fi" />
+            </div>
             <div class="col-lg-6">
-                <div class="card-ios mt-3">
-                    <h3><strong>CONTEXT:</strong></h3> 
-                    <p class="mt-3">Because general knowledge should be fun! 
-                        <br>This application aims to develop basic culture through question and answer games.</p>
-                    <h3 class="mt-3"><strong>DESCRIPTION:</strong></h3>
-                    <p class="mt-3">This app is composed of four game´s categories:</p>
-                    <ul>
-                        <li>Sciences</li>
-                        <li>Geography</li>
-                        <li>Random</li>
-                        <li>Fun facts</li>
-                    </ul>
-                    <p>Each category consists of a series of questions with two answer choices.<br> 
-                    Each answer is tracked from the moment users create their profiles.  Users can see their progress by category or by week/month, and even compare their results with other users.<br> <br> 
-                    All mockups are created using <strong>Apple Human Interface Guidelines</strong></p>
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <h2 class="text-white">LOW-FIDELITY MOCKUPS</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 my-auto mobile-disappear">
-                <div class="card-ios mt-5">
-                    <img class="img-fluid" src="assets/img/ios/moodboard.png" alt="Arrow picture" />
-                </div>
+        </div>
+        <!--Lofi app row one-->
+        <div class="row">
+            <div class="col-lg-3 mt-5">
+                <p><strong>Slpash screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/splash.png" alt="Arrow picture" />
             </div>
-    
+            <div class="col-lg-3 mt-5">
+                <p><strong>Landing screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Landing_page.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Timer feature screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Timer_feature.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Game screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Game_category_screen.png" alt="Arrow picture" />
+            </div>
+        </div>
+        <!--Lofi app row two-->
+        <div class="row">
+            <div class="col-lg-3 mt-5">
+                <p><strong>Suggestions feature screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Suggestion_screen.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Login screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Login.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Create account screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Create_an_account.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5 mb-5">
+                <p><strong>Profile dashboard screen</strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Profile_dashboard.png" alt="Arrow picture" />
+            </div>
+        </div>
+      <!--Container ends-->
     </div>
+</section>
 
-  
-    <!-- <div class="container">
-        <div class="section">
-            <div class="card-ios mt-5">
-                <img style="max-width:60%" src="assets/img/ios/site_map_white.png" alt="Arrow picture" />
-            </div>
-        </div>
-    </div> -->
-    <section class="about-section text-center">
-        <h2 class="text-white mb-6">LOW-FIDELITY MOCKUPS</h2>        
-            <img class="img-fluid" src="assets/img/ios/ios_showcase_mobile_1.png" alt="lo fi" /> 
-    </section>
-   
-    <div class="container margin-figma">
-        <div class="section">
-            <div class="row">
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Slpash screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/splash.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Landing screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Landing_page.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Timer feature screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Timer_feature.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Game screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Game_category_screen.png" alt="Arrow picture" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Suggestions feature screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Suggestion_screen.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Login screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Login.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Create account screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Create_an_account.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5 mb-5">
-                    <p><strong>Profile dashboard screen</strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/lofi/Profile_dashboard.png" alt="Arrow picture" />
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="projects-section bg-white" id="projects">
+    <div class="container px-4 px-lg-5">
 
-    <section class="about-section text-center">
-        <h2 class="text-white mb-6">HIGH-FIDELITY MOCKUPS</h2>        
-            <img class="img-fluid" src="assets/img/ios/ios_showcase_mobile_2.png" alt="Hi fi" /> 
-    </section>
-    <div class="container">
-        <div class="section">
-            <div class="row">
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Slpash screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_splash.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Landing screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Landing_page.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Timer feature screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Timer_feature.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Game screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fI_Game_cat_screen.png" alt="Arrow picture" />
+        <!--Hifi intro row-->
+        <div class="row gx-0 mb-5 margin-figma mb-lg-0 justify-content-center">
+            <div class="col-lg-6 my-auto">
+                <img class="img-fluid" src="assets/img/ios/ios_showcase_mobile_2.png" style="width:100%;" alt="Lo Fi" />
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <h2 class="text-white">HIGH-FIDELITY MOCKUPS</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Suggestions feature screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Suggestion_screen.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Login screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Login.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Create account screen &#8594; </strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Create_an_account.png" alt="Arrow picture" />
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <p><strong>Profile dashboard screen</strong></p>
-                    <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Profile_dashboard.png" alt="Arrow picture" />
-                </div>
-            </div>
-            
         </div>
-    </div>
+        <!--Hifi app row one-->
+        <div class="row">
+            <div class="col-lg-3 mt-5">
+                <p><strong>Slpash screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_splash.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Landing screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Landing_page.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Timer feature screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Timer_feature.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Game screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Game_category_screen.png" alt="Arrow picture" />
+            </div>
+        </div>
+        <!--Hifi app row two-->
+        <div class="row">
+            <div class="col-lg-3 mt-5">
+                <p><strong>Suggestions feature screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Suggestion_screen.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Login screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Login.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5">
+                <p><strong>Create account screen &#8594; </strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Create_an_account.png" alt="Arrow picture" />
+            </div>
+            <div class="col-lg-3 mt-5 mb-5">
+                <p><strong>Profile dashboard screen</strong></p>
+                <img style="max-width:80%" class="mt-3 zoom" src="assets/img/ios/hifi/Hi_fi_Profile_dashboard.png" alt="Arrow picture" />
+            </div>
+        </div>
 
-    <div class="container justify-content-center mt-6">
-        <div class="section">
-            
-                <p>
-                    <a href="mailto:angeline.remy@hotmail.fr">&#128386; angeline.remy@hotmail.fr</a>
-                </p>
-       
+
+        <!--Container ends-->
         </div>
+</section>
+
+
+<!-- Footer-->
+<footer class="footer bg-black small text-center text-white-50">
+    <div class="container px-4 px-lg-5"> 
+        <a class="btn btn-primary my-3"  href="mailto:angeline.remy@hotmail.fr">Contact me</a>
     </div>
+</footer>
+
  
 
 <!-- Bootstrap core JS-->
