@@ -8051,7 +8051,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .text-reset {
@@ -11819,6 +11819,10 @@ body {
 
 .bg-light-blue {
   background: linear-gradient(#e3e3f1, rgb(255, 255, 255));
+}
+
+.bg-square {
+  background-color: #64a19d;
 }
 
 /* swiper cube starts  */
