@@ -57,6 +57,17 @@ h6 {
   opacity: 1;
 }
 
+
+ul.special-list {
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.special-list li i.bi-bullseye {
+  color: #1CABC4;
+  margin-right: 8px;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -530,6 +541,14 @@ section {
   margin-top: 20px;
   margin-bottom: 30px;
   color: #45505b;
+}
+
+.resume .resume-title-red {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #8B0000;
 }
 
 .resume .resume-item {
@@ -1136,33 +1155,39 @@ section {
 }
 
 .buttonlg {
+  margin-top: 40px;
   border: none;
   background: #1CABC4;
-  color:  #fff;
+  color: #fff;
+  text-decoration: none;
   transition: 0.4s;
   padding: 10px 35px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
-  margin: 14px 2px;
+  margin: 0 auto;
   cursor: pointer;
   border-radius: 5px;
 }
 
+
 .buttonlg:hover {
   border: none;
   background: #fff;
-  color:  #1CABC4;
+  color: #1CABC4;
+  text-decoration: none;
   transition: 0.4s;
   padding: 10px 35px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
-  margin: 14px 2px;
+  margin: 0 auto;
   cursor: pointer;
+  border-radius: 5px;
 }
+
 
 .contact .php-email-form button[type=submit] {
   background: #1CABC4;
