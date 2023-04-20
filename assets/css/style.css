@@ -1,8 +1,10 @@
 
 body {
-  font-family: "Roboto", "Open Sans", sans-serif;
-  color: #fafafa;
+  font-family: "Roboto Thin", "Open Sans", sans-serif;
+  font-weight: 100;
+  color: #f3f3f3;
   background-color: #04171a;
+  font-size: 16px;
 }
 
 a {
@@ -22,6 +24,10 @@ h6 {
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+.p-lg {
+  font-size: 16px;
+}
+ 
 .image {
   max-width: 60%;
   height: auto;
@@ -68,6 +74,27 @@ ul.special-list {
   margin-right: 8px;
 }
 
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+/* Change scrollbar width and color */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #F5F5F5;
+}
+
+/* Change thumb color */
+::-webkit-scrollbar-thumb {
+  background-color: #1CABC4;
+}
+
+/* Change thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0D768A;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -619,7 +646,7 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
@@ -710,7 +737,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #45505b;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
@@ -779,6 +806,10 @@ section {
   border: 1px solid #1CABC4;
 }
 
+.img_portfolio {
+  border-radius: 12px;
+} 
+
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1CABC4;
 }
@@ -799,7 +830,7 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -818,6 +849,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -872,7 +904,7 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -1072,7 +1104,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #728394;
 }
 
